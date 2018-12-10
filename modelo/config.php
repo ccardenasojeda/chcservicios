@@ -12,7 +12,7 @@
  define("DB_USER", "root");
 
  // Clave de usuario de Base de datos
- define("DB_PASS", "G2h3j4%&");
+ define("DB_PASS", "1234Ab$%");
 
  // Nombre de la tabla sobre la cual se trabajara
  define("DB_NAME", "chc_servicios");

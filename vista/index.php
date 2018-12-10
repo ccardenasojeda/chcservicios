@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+$login =$_SESSION['loggedin'];
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +12,15 @@ session_start();
 <body>
 	<?php include 'header.php';?>
 	<div class="centro"></div>
+        <?php 
+        //var_dump($_SESSION['usuario']);
+        if($login){
+        include 'tablaServicios.php';
+        }else{
+            //var_dump($login);
+            include 'frmLogin.php';
+        }
+        ?>
 	<?php include 'footer.php';?>
 </body>
 </html>

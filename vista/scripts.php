@@ -11,4 +11,5 @@
 <script type="text/javascript" src="../jquery/buttons.print.min.js"></script>
 <script src="../materialize/js/materialize.min.js"></script>  
 <script src="../materialize/js/init.js"></script> 
+<script src="../js/tablas.js"></script> 
 <!-- Responsive Video Slider JS -->

@@ -1,5 +1,5 @@
  <footer class="page-footer grey darken-2">
-    <div class="container">
+    <div class="">
       <div class="row">
           <div class="col l3 s12 ctnRedes" >
           <h5 class="white-text">Redes Sociales</h5>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">by <a class="brown-text text-lighten-3" href="#!">CST Sistemas</a>
+      <div class="container center"><a class="brown-text text-lighten-3" href="#!"><p>&copy; 2018 Cristian Cárdenas<p></a>
       </div>
     </div>
   </footer>

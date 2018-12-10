@@ -532,7 +532,7 @@ function filtroTablaCarreras(where) {
    });
    function mostrarTablaOrdenAlf(){
 
-     jQuery('#cdrCarrerasAlf').DataTable( {
+    jQuery('#cdrCarrerasAlf').DataTable( {
     //dom: 'Bfrtip',
     destroy: true,
     "bDeferRender": true,

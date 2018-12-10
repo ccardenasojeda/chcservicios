@@ -25,9 +25,10 @@ class gestorBaseDatos {
         while ($rows[] = $result->fetch_assoc());
         // Cierra la consulta
         $result->close();
-        
+        //var_dump($rows);
         //return $this->utf8_encode_deep($rows);
-        return $this->utf8_encode_deep($rows);
+        //return $this->utf8_encode_deep($rows);
+        return $this->eliminar_Nulos($rows);
     }
     
     function eliminar_Nulos($rows){

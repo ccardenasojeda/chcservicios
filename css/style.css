@@ -8,25 +8,28 @@ and open the template in the editor.
     Author     : roberto
 */
 body{
-    
+
     font-size: 0.8em;
     margin: 0px;
-   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
-background: #b5bdc8; /* Old browsers */
-background: -moz-linear-gradient(top, #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+    
+    
 
 }
 .header{
     width: 100%;
     padding: 10px 0px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 
 }
 nav {
@@ -58,7 +61,7 @@ nav a {
 }
 .cuerpoContainer{
     width: 90%;
-   
+
     margin-right: auto;
     margin-left: auto;
 }
@@ -92,11 +95,11 @@ nav a {
 }
 
 #barralogos #infoarea{
-     text-align: right;
-     color: #115ca1;
-     border-right: 4px solid #115ca1;
-     height:32px;
-     margin-top: 35px;
+    text-align: right;
+    color: #115ca1;
+    border-right: 4px solid #115ca1;
+    height:32px;
+    margin-top: 35px;
 }
 
 #barralogos #nomarea{
@@ -124,52 +127,52 @@ footer.page-footer {
     line-height: 22px;
     padding: 14px 16px;
 }
- 
- /* label color */
-   .input-field label {
-     color: #9e9e9e;
-   }
-   /* label focus color */
-   .input-field input[type=text]:focus + label {
-     color: #000;
-   }
-   /* label underline focus color */
-   .input-field input[type=text]:focus {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-   /* valid color */
-   .input-field input[type=text].valid {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-   /* invalid color */
-   .input-field input[type=password].invalid {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-    .input-field input[type=password]:focus + label {
-     color: #000;
-   }
-   /* label underline focus color */
-   .input-field input[type=password]:focus {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-   /* valid color */
-   .input-field input[type=password].valid {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-   /* invalid color */
-   .input-field input[type=password].invalid {
-     border-bottom: 1px solid #000;
-     box-shadow: 0 1px 0 0 #000;
-   }
-   /* icon prefix focus color */
-   .input-field .prefix.active {
-     color: #000;
-   }
+
+/* label color */
+.input-field label {
+    color: #9e9e9e;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type=password]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=password].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
 
 .btn, .btn-large {
     text-decoration: none;
@@ -204,7 +207,7 @@ button:focus {
     background-color: #484E53;
 }
 .brand-logo{
-  font-weight:900;
+    font-weight:900;
 }
 
 
@@ -234,29 +237,29 @@ button:focus {
 }
 
 #logoFooter {
-float: left;
-padding-right: 10px;
-padding-top: 15px;
-height: 200px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 15px;
+    height: 200px;
 }
 #logoHeader{
-  margin-top: 15px;
-  width: 600px;
-  height: 150px; 
+    margin-top: 15px;
+    width: 600px;
+    height: 150px; 
 }
 
 #enlacesFollowme img {
--webkit-filter: grayscale(100%);
-filter: gray;
-filter: grayscale(100%);
-padding: 3px;
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: grayscale(100%);
+    padding: 3px;
 }
 
 #enlacesFollowme img:hover {
--webkit-filter: grayscale(0%);
-filter: gray;
-filter: grayscale(0%);
-padding: 3px;
+    -webkit-filter: grayscale(0%);
+    filter: gray;
+    filter: grayscale(0%);
+    padding: 3px;
 }
 .ctnRedes{
     text-align: center;
@@ -281,13 +284,13 @@ padding: 3px;
     box-sizing: inherit;
 }
 #subtituloPA{
-  color: #b0bec5;
+    color: #b0bec5;
 }
 #propuesta{
-  color: #fff ;
+    color: #fff ;
 }
 #academica{
-  color: #78909c;
+    color: #78909c;
 }
 .btn-small {
     height: 24px;

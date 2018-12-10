@@ -1,5 +1,5 @@
 <div class="header">
-    <div class="container">
+    <div class="">
         <div>
             <div class="row">
 
@@ -8,7 +8,24 @@
                 </div>
              
             </div>
-        <?php include 'navBar.php'; ?>
+        
+                <?php
+                session_start();
+                
+                if($_SESSION['tipo_usuario'] == NULL){
+                
+                    include 'navBarCliente.php'; 
+                }else
+                {
+                    if($_SESSION['tipo_usuario'] == 1){
+                        include 'navBarCliente.php';   
+                    }else{
+                     if($_SESSION['tipo_usuario'] == 0){
+                        include 'navBar.php';   
+                    }   
+                    }
+                }
+                ?>
         </div>
     </div>
 </div>
