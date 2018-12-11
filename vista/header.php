@@ -4,7 +4,7 @@
             <div class="row">
 
                 <div class="col l12 m12 s12">
-                    <div class="row"><a href="#!"><img id="logoHeader" src="../img/logo.png"/></a></div>
+                    <div class="row"><a  href="#!"><img class="responsive-img" id="logoHeader" src="../img/logo.png"/></a></div>
                 </div>
              
             </div>

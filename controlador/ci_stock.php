@@ -21,5 +21,13 @@ switch ($_GET['opcion'])
         }
         //echo json_encode($servicios);
         break;
-    
+    case 'alta':
+        $r = gestorStock::altaArticulo($_GET);
+        if($r == 1){
+            echo 'Los datos se guardaron correctamente.!!!';
+        }else{
+            echo 'NO fué posible guardar los datos. Por favor verifique.!';
+        }
+        
+        break;
 }

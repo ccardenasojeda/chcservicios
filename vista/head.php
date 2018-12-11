@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="../img/logo_circulo.png" type="image/png" />
-<?php include 'scripts.php';?>
+
 <!-- Compiled and minified CSS -->
 <link href="../materialize/material-design-icons/iconfont/material-icons.css" rel="stylesheet">
 <link rel="stylesheet" href="../materialize/css/materialize.min.css">

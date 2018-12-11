@@ -9,7 +9,11 @@ jQuery(document).ready(function () {
     jQuery(".stock").click(function () {
     jQuery(".centro").empty();
     jQuery(".centro").load("../vista/tablaStock.php");
-    
     });
+    jQuery(".abmStock").click(function () {
+    jQuery(".centro").empty();
+    jQuery(".centro").load("../vista/frmAbmStock.php");
+    });
+    
     
 });

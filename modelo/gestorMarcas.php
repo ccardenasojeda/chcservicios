@@ -24,4 +24,14 @@ class gestorMarcas {
         $resultado = $conexion->get_query($sql);
         return $resultado;
     }
+    
+    static function listadoSelect(){
+        $sql       = "SELECT * FROM marcas";
+        $conexion  = new gestorBaseDatos();
+        $resultado = $conexion->get_query($sql);
+        foreach ($resultado as $key => $value)
+        {
+             echo '<option value="'.$value['id_marcas'].'">'.$value['descripcion'].'</option>'; 
+        }
+    }
 }

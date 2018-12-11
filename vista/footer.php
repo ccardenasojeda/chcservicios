@@ -18,7 +18,7 @@
           <p class="grey-text text-lighten-4">Río Gallegos - CP 9400 | Santa Cruz - Argentina</p>
         </div>
         <div class="col l2 s6">
-            <a href="#!" ><img id="logoFooter" src="../img/logo_circulo.png" title="CHCServicios" /></a>  
+            <a href="#!" ><img class="responsive-img" id="logoFooter" src="../img/logo_circulo.png" title="CHCServicios" /></a>  
         </div>
 
       </div>

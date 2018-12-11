@@ -10,13 +10,7 @@ $login =$_SESSION['loggedin'];
 	<?php include 'head.php';?>
 </head>
 <body>
-    <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-    <li><a class="stock" href="#!">ABM Artículos</a></li>
-    <li><a href="#!">Ver Artículos</a></li>
-    <!--<li class="divider"></li>
-    <li><a href="#!"></a></li>-->
-</ul>
+
 	<?php include 'header.php';?>
 	<div class="centro">
         <?php 
@@ -31,5 +25,6 @@ $login =$_SESSION['loggedin'];
         ?>
         </div>
 	<?php include 'footer.php';?>
+        <?php include 'scripts.php';?>
 </body>
 </html>

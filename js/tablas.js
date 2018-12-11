@@ -96,8 +96,8 @@ jQuery(document).ready(function () {
 
     }
     function tablaStock(where){
-         var datos = $.get('../controlador/ci_stock.php?opcion=listado&filtro=0');
-        console.log(datos);
+         
+        
         jQuery('#cdrStock').DataTable().clear().draw();
         jQuery('#cdrStock').DataTable({
             //dom: 'Bfrtip',
@@ -114,12 +114,14 @@ jQuery(document).ready(function () {
                 "type": "GET"
             },
             "columns": [
-                {"data": "nombre"}, //0
-                {"data": "marca_desc"}, //1
-                {"data": "precio"}, //2
-                {"data": "fecha_alta"}, //3
-                {"data": "tipo_producto_desc"},//4
-                {"data": "id_productos"}//5
+                {"data": "codigo"}, //0
+                {"data": "nombre"}, //1
+                {"data": "marca_desc"}, //2
+                {"data": "precio"}, //3
+                {"data": "fecha_alta_form"}, //4
+                {"data": "tipo_producto_desc"},//5
+                {"data": "cantidad"},//6
+                {"data": "id_productos"}//7
             ],
             "oLanguage": {
                 "sProcessing": "Procesando...",
@@ -163,7 +165,7 @@ jQuery(document).ready(function () {
                     [
 
                         {
-                            "targets": [5],
+                            "targets": [7],
                             "visible": false,
                             "searchable": false
                         },
@@ -178,7 +180,7 @@ jQuery(document).ready(function () {
 
                             },
                             "width": "10%",
-                            "targets": 6
+                            "targets": 8
                         }
 
                     ]
@@ -186,7 +188,7 @@ jQuery(document).ready(function () {
         });
     }
     $.fn.btnMuestraInfo = function (id) {
-        console.log("++++++++++++" + jQuery(".info").attr("id"));
+        console.log(jQuery(".info").attr("id"));
         //muestraInfoCarrera(id);
     };
 });
