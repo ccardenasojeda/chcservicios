@@ -1,8 +1,6 @@
-<div class="container center">
+<div class="container">
     
-    
-        
-        <div class="row card-panel">
+    <div class="row card-panel">
             <h4>Servcios Pendientes</h4>
           <div class="col s12">
             <br>

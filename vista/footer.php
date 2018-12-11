@@ -1,13 +1,12 @@
  <footer class="page-footer grey darken-2">
-    <div class="">
+    <div class="container">
       <div class="row">
           <div class="col l3 s12 ctnRedes" >
           <h5 class="white-text">Redes Sociales</h5>
-          <div id="enlacesFollowme">
-              
+          <div id="enlacesFollowme">              
               <a href="" target="_blank"><img alt="Síguenos en facebook" src="../img/facebook.png" title="Síguenos en facebook"></a>
               <a href="" target="_blank"><img alt="Síguenos en Youtube +" src="../img/youtube.png" title="Síguenos en Youtube"></a> 
-              </div>
+          </div>
         </div>
           <div class="col l7 s6 ctnContacto">
           

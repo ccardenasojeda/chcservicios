@@ -1,18 +1,18 @@
-<div class="container center">
+<div class="container">
 
 
 
     <div class="row card-panel">
-        <h4>Servcios Pendientes</h4>
+        <h4>Articulos Disponibles</h4>
         <div class="col s12">
             <br>
-            <table id="cdrServicios" class="display" cellspacing="0" width="100%">
+            <table id="cdrStock" class="display" cellspacing="0" width="100%">
                 <thead>
                     <tr>
                         <th>Nombre</th>
                         <th>Marca</th>
                         <th>Precio</th>
-                        <th>Detalle</th>
+                        <th>Fec. Alta</th>
                         <th>Cantidad</th>
                         <th>id_productos</th>
                         <th></th>
@@ -20,11 +20,12 @@
                 </thead>
                 <tfoot>
                 <th>Nombre</th>
-                <th>Inicio</th>
-                <th>Fin</th>
-                <th>Detalle</th>
-                <th>id</th>
-                <th></th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                        <th>Fec. Alta</th>
+                        <th>Cantidad</th>
+                        <th>id_productos</th>
+                        <th></th>
                 </tfoot>
             </table>
         </div>
@@ -34,3 +35,6 @@
 
 
 </div>
+<script src="../js/tablas.js"></script>
+
+  

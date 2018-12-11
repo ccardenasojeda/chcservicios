@@ -10,8 +10,15 @@ $login =$_SESSION['loggedin'];
 	<?php include 'head.php';?>
 </head>
 <body>
+    <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a class="stock" href="#!">ABM Artículos</a></li>
+    <li><a href="#!">Ver Artículos</a></li>
+    <!--<li class="divider"></li>
+    <li><a href="#!"></a></li>-->
+</ul>
 	<?php include 'header.php';?>
-	<div class="centro"></div>
+	<div class="centro">
         <?php 
         //var_dump($_SESSION['usuario']);
         if($login){
@@ -20,7 +27,9 @@ $login =$_SESSION['loggedin'];
             //var_dump($login);
             include 'frmLogin.php';
         }
+
         ?>
+        </div>
 	<?php include 'footer.php';?>
 </body>
 </html>

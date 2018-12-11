@@ -4,7 +4,7 @@
         <a href="#"  data-activates="mobile-demo" class="button-collapse">
             <i	class="material-icons">menu</i></a>
 
-        <ul class="left hide-on-med-and-down">
+        <ul class="hide-on-med-and-down">
             <li><a href="index.php" class="white-text">Inicio</a></li>
            
         </ul>

@@ -9,7 +9,7 @@
  define("DB_HOST", "localhost");
 
  // Nombre de usuario de Base de datos
- define("DB_USER", "root");
+ define("DB_USER", "chc_servicios");
 
  // Clave de usuario de Base de datos
  define("DB_PASS", "1234Ab$%");
